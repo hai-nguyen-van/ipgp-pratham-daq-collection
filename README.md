@@ -1,7 +1,9 @@
 LAASP — Data acquisition software for PRATHAM satellite ground station at IPGP
 ==============
 
-__LAASP__ - acronym for L(ogiciel) (d')A(cquisition)A(utomatisé)(pour le)S(atellite)P(RATHAM) - is a set of tools developed at the [Institut de Physique du Globe de Paris](http://www.ipgp.fr) that helps [Pratham satellite](http://www.aero.iitb.ac.in/pratham/) ground station developers automate control, data acquisition (SCADA) and demodulation tasks under [LabVIEW](http://www.ni.com/labview/). Further documentation on technical and scientific issues can be found in [ipgp-pratham-doc](https://github.com/EmptyStackExn/ipgp-pratham-doc) repository.
+__LAASP__ - acronym for L(ogiciel) (d')A(cquisition)A(utomatisé)(pour le)S(atellite)P(RATHAM) - is a set of tools developed at the [Institut de Physique du Globe de Paris](http://www.ipgp.fr) that helps [Pratham satellite](http://www.aero.iitb.ac.in/pratham/) ground station developers automate control, data acquisition (SCADA) and demodulation tasks under [LabVIEW](http://www.ni.com/labview/).
+
+Further documentation on technical and scientific issues can be found in [ipgp-pratham-doc](https://github.com/EmptyStackExn/ipgp-pratham-doc) repository.
 
 This unstable version is still incomplete. Usage of `ipgp-pratham-laasp-client` is allowed under the terms listed in LICENSE section at the bottom of this file. _*NIX_ users can find ports of LabVIEW for [FreeBSD](http://people.freebsd.org/~murray/daq.html#labview) and [Linux](http://www.ni.com/white-paper/11786/en) operating systems.
 
@@ -33,8 +35,8 @@ Minimum system requirements
 ---------------------------
 
 - [NI LabVIEW 8.6](http://digital.ni.com/src.nsf/websearch/968B3DF8AD48394D86257880005141A8?OpenDocument&node=node=203014_us)
-- [NI DAQ-mx 9.2.3](http://joule.ni.com/nidu/cds/view/p/id/2260/lang/fr)
-- [Nova for Windows 2.2c](http://www.nlsa.com/uploads/nfw21v/nova_21v_download.html)
+- [NI DAQ-mx 9.2.3](http://joule.ni.com/nidu/cds/view/p/id/2260/lang/fr) (ADC drivers)
+- [Nova for Windows 2.2c](http://www.nlsa.com/uploads/nfw21v/nova_21v_download.html) (satellite tracking and antenna rotor control)
 
 LICENSE
 =======
