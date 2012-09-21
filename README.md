@@ -1,21 +1,21 @@
-LAASP — Data acquisition software for PRATHAM satellite ground station at IPGP
+Data acquisition software collection for Pratham satellite ground station at IPGP
 ==============
 
-__LAASP__ - acronym for L(ogiciel) (d')A(cquisition)A(utomatisé)(pour le)S(atellite)P(RATHAM) - is a set of tools developed at the [Institut de Physique du Globe de Paris](http://www.ipgp.fr) that helps [Pratham satellite](http://www.aero.iitb.ac.in/pratham/) ground station developers automate control, data acquisition (SCADA) and demodulation tasks under [LabVIEW](http://www.ni.com/labview/).
+A set of tools developed at the [Institut de Physique du Globe de Paris](http://www.ipgp.fr) that helps [Pratham satellite](http://www.aero.iitb.ac.in/pratham/) ground station developers automate control, data acquisition (SCADA) and demodulation tasks under [LabVIEW](http://www.ni.com/labview/).
 
 Further documentation on technical and scientific issues can be found in [ipgp-pratham-doc](https://github.com/EmptyStackExn/ipgp-pratham-doc) repository. _*NIX_ users can find ports of LabVIEW for [FreeBSD](http://people.freebsd.org/~murray/daq.html#labview) and [Linux](http://www.ni.com/white-paper/11786/en) operating systems.
 
-Usage of `ipgp-pratham-laasp-client` is allowed under the terms listed in LICENSE section at the bottom of this file.
+Usage of `ipgp-pratham-daq-collection` is allowed under the terms listed in LICENSE section at the bottom of this file.
 
 
 Downloading and building
 =============
 
-To download you can click upon (`ZIP` button) or type the following in the Terminal:
+To download you can click upon (`ZIP` button) or type the following line in the Terminal:
 
-	git clone git://github.com/EmptyStackExn/ipgp-pratham-laasp-client.git
+	git clone git://github.com/EmptyStackExn/ipgp-pratham-daq-collection.git
 
-The directory `./ipgp-pratham-laasp-client/` is created within you can find:
+The directory `./ipgp-pratham-daq-collection/` is created within you can find:
 
 - `Main.vi` : main data acquisition automation tool
 - `Digitization_of_signal.vi` : signal digitizer
