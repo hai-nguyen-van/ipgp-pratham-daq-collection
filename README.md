@@ -7,6 +7,7 @@ Further documentation on technical and scientific issues can be found in [ipgp-p
 
 Usage of `ipgp-pratham-daq-collection` is allowed under the terms listed in LICENSE section at the bottom of this file.
 
+![Alt text](https://github.com/EmptyStackExn/ipgp-pratham-daq-collection/blob/master/pictures/main_example.jpg?raw=true "Main acquisition scheduler app")
 
 Downloading and building
 =============
