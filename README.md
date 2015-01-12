@@ -1,22 +1,22 @@
 Data acquisition software collection for Pratham satellite ground station at IPGP
 ==============
 
-A set of tools developed at the [Institut de Physique du Globe de Paris](http://www.ipgp.fr) that helps [Pratham satellite](http://www.aero.iitb.ac.in/pratham/) ground station developers automate control, data acquisition (SCADA) and demodulation tasks under [LabVIEW](http://www.ni.com/labview/).
+> A set of tools developed at the [Institut de Physique du Globe de Paris](http://www.ipgp.fr) to assist [Pratham satellite](http://www.aero.iitb.ac.in/pratham/) ground station developers automate control, data acquisition (SCADA) and demodulation tasks under [LabVIEW](http://www.ni.com/labview/).
 
-Further documentation on technical and scientific issues can be found in [ipgp-pratham-doc](https://github.com/EmptyStackExn/ipgp-pratham-doc) repository. _*NIX_ users can find ports of LabVIEW for [FreeBSD](http://people.freebsd.org/~murray/daq.html#labview) and [Linux](http://www.ni.com/white-paper/11786/en) operating systems.
+Further documentation on technical and scientific issues can be found in [ipgp-pratham-docs](https://github.com/EmptyStackExn/ipgp-pratham-docs) repository. _*NIX_ users can find ports of LabVIEW for [FreeBSD](http://people.freebsd.org/~murray/daq.html#labview) and [Linux](http://www.ni.com/white-paper/11786/en) operating systems.
 
-Usage of `ipgp-pratham-daq-collection` is allowed under the terms listed in LICENSE section at the bottom of this file.
+Usage of `ipgp-pratham-daq-collection` is allowed under the terms listed in LICENSE section.
 
-![Alt text](https://raw.githubusercontent.com/EmptyStackExn/ipgp-pratham-daq-collection/master/pictures/main_example.png "Main acquisition scheduler app")
+![equation](pictures/main_example.png "Main acquisition scheduler app")
 
 Downloading and building
 =============
 
-To download you can click upon (`ZIP` button) or type the following line in the Terminal:
+To download you can click upon (`ZIP` button) or type the following
 
 	git clone git://github.com/EmptyStackExn/ipgp-pratham-daq-collection.git
 
-The directory `./ipgp-pratham-daq-collection/` is created within you can find:
+The directory `./ipgp-pratham-daq-collection/` is created within you can find
 
 - `Main.vi` : main data acquisition automation tool
 - `Digitization_of_signal.vi` : signal digitizer
